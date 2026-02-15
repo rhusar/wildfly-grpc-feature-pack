@@ -130,8 +130,6 @@ public class TwowaySecureHelloWorldTest extends HelloWorldParent {
         war.addPackage(HelloRequest.class.getPackage());
         war.addClass(GreeterGrpc.class);
         war.addClass(InterceptorTracker.class);
-        // war.as(ZipExporter.class).exportTo(
-        // new File("/tmp/hello.war"), true);
         return war;
     }
 
