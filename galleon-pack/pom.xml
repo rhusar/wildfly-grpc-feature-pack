@@ -9,7 +9,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.wildfly.extras.grpc</groupId>
+        <groupId>org.wildfly.grpc</groupId>
         <artifactId>wildfly-grpc-code-parent</artifactId>
         <version>0.1.17-SNAPSHOT</version>
         <relativePath>../code-parent/pom.xml</relativePath>
