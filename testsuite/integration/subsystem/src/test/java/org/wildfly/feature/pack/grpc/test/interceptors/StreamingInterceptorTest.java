@@ -4,7 +4,6 @@
  */
 package org.wildfly.feature.pack.grpc.test.interceptors;
 
-import java.io.File;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
@@ -15,7 +14,6 @@ import org.jboss.arquillian.junit.Arquillian;
 import org.jboss.shrinkwrap.api.Archive;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.asset.EmptyAsset;
-import org.jboss.shrinkwrap.api.exporter.ZipExporter;
 import org.jboss.shrinkwrap.api.spec.EnterpriseArchive;
 import org.jboss.shrinkwrap.api.spec.WebArchive;
 import org.junit.AfterClass;
@@ -108,7 +106,6 @@ public class StreamingInterceptorTest {
         ear.addAsModule(war1);
         ear.addAsModule(war2);
 
-        ear.as(ZipExporter.class).exportTo(new File("/tmp/interceptor.ear"), true);
         return ear;
     }
 
