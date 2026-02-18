@@ -27,6 +27,7 @@
         <module name="com.google.protobuf" export="true" />
         <module name="com.squareup.okhttp3" />
         <module name="com.google.guava" />
+        <module name="io.perfmark" />
         <module name="java.logging" />
     </dependencies>
 </module>
