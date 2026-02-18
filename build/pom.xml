@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.wildfly.extras.grpc</groupId>
+        <groupId>org.wildfly.grpc</groupId>
         <artifactId>wildfly-grpc-code-parent</artifactId>
         <version>0.1.17-SNAPSHOT</version>
         <relativePath>../code-parent/pom.xml</relativePath>
@@ -20,7 +20,7 @@
     <name>WildFly gRPC :: Build</name>
     <packaging>pom</packaging>
     <properties>
-        <wildfly.grpc.test.feature.pack.groupId>org.wildfly.extras.grpc</wildfly.grpc.test.feature.pack.groupId>
+        <wildfly.grpc.test.feature.pack.groupId>org.wildfly.grpc</wildfly.grpc.test.feature.pack.groupId>
         <wildfly.grpc.test.feature.pack.artifactId>wildfly-grpc-feature-pack</wildfly.grpc.test.feature.pack.artifactId>
         <wildfly.grpc.test.feature.pack.version>0.1.4-SNAPSHOT</wildfly.grpc.test.feature.pack.version>
     </properties>
@@ -82,7 +82,7 @@
                             </excluded-packages>
                         </feature-pack>
                         <feature-pack>
-                            <groupId>org.wildfly.extras.grpc</groupId>
+                            <groupId>org.wildfly.grpc</groupId>
                             <artifactId>wildfly-grpc-feature-pack</artifactId>
                             <version>${wildfly.grpc.test.feature.pack.version}</version>
                             <inherit-configs>false</inherit-configs>
