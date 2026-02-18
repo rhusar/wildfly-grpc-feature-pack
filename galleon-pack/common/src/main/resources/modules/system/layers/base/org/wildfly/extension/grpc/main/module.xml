@@ -11,7 +11,7 @@
     </properties>
 
     <resources>
-        <artifact name="${org.wildfly.extras.grpc:wildfly-grpc-subsystem}" />
+        <artifact name="${org.wildfly.grpc:wildfly-grpc-subsystem}" />
     </resources>
 
     <dependencies>
